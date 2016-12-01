@@ -2,12 +2,14 @@ package com.digitalmirko.brainteam;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     String[] brainTeam = new String[]{"Nikola Tesla","Elon Musk","Bill Gates","Steve Jobs", "Larry Page", "Sergey Brin"};
 
@@ -24,6 +26,16 @@ public class MainActivity extends AppCompatActivity {
         ArrayAdapter<String> brainTeamAdapter = new ArrayAdapter<String>(getBaseContext(),android.R.layout.simple_list_item_1, brainTeam);
 
         listView.setAdapter(brainTeamAdapter);
+
+        listView.setOnItemClickListener(this);
+
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+//        System.out.println("Tapped:" + position); // Test to see which positions tapped
+
+        System.out.println(brainTeam[position]);
 
     }
 }
