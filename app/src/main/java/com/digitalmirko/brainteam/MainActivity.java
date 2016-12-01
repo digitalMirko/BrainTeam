@@ -1,5 +1,6 @@
 package com.digitalmirko.brainteam;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -34,8 +35,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
 //        System.out.println("Tapped:" + position); // Test to see which positions tapped
+//        System.out.println(brainTeam[position]); // Test to see which person was tapped
 
-        System.out.println(brainTeam[position]);
+        Intent moveToDetailIntent = new Intent(getBaseContext(), BrainDetailActivity.class);
+        moveToDetailIntent.putExtra("personName", brainTeam[position]);
+        startActivity(moveToDetailIntent);
+
 
     }
 }
