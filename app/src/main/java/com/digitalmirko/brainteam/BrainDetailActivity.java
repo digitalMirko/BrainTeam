@@ -55,6 +55,15 @@ public class BrainDetailActivity extends AppCompatActivity {
                 break;
             case "Elon Musk":
                 bornTextView.setText("South African-born Canadian-American ");
+                professionTextView.setText("Business Magnate, Investor\nEngineer, and Inventor");
+                detailsTextView.setText("Elon is the founder, CEO, and CTO of SpaceX; co-founder, CEO, and product architect of Tesla Motors; co-founder and chairman " +
+                        "of SolarCity; co-chairman of OpenAI; co-founder of Zip2; and founder of X.com which merged with PayPal of Confinity. As of June 2016, he has an " +
+                        "estimated net worth of US$11.5 billion, making him the 83rd wealthiest person in the world.\n\n" +
+                        "Musk has stated that the goals of SolarCity, Tesla Motors, and SpaceX revolve around his vision to change the world and humanity." +
+                        "His goals include reducing global warming through sustainable energy production and consumption, and reducing the \"risk of human extinction\" " +
+                        "by \"making life multiplanetary\" by setting up a human colony on Mars.\n\n" +
+                        "In addition to his primary business pursuits, he has also envisioned a high-speed transportation system known as the Hyperloop, and has proposed" +
+                        " a VTOL supersonic jet aircraft with electric fan propulsion, known as the Musk electric jet.");
                 imageView.setImageResource(R.mipmap.elon4b);
                 break;
             case "Bill Gates":
