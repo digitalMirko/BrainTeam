@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Nikola Tesla"
+        android:text="Name"
         android:id="@+id/nameTextView"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Serbian American Inventor"
+        android:text="Country Info"
         android:id="@+id/bornTextView"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="5dp" />
@@ -40,23 +40,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Electrical / Mechanical Engineer"
+        android:text="Profession Info\nProfession Info"
         android:id="@+id/professionTextView"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="5dp" />
+        android:layout_marginTop="5dp"
+        android:lines="2"
+        android:textAlignment="center" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/scrollView"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="11dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Nikola Tesla (Serbian Cyrillic: Никола Тесла; 10 July 1856 – 7 January 1943) was a Serbian-American inventor, electrical engineer, mechanical engineer, physicist, and futurist best known for his contributions to the design of the modern alternating current (AC) electricity supply system"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mi ipsum, tristique a enim quis, porttitor vestibulum ipsum. Donec cursus felis nulla, id semper lacus ultricies vel. Aenean efficitur est a egestas rhoncus. Proin semper lacinia congue. Curabitur vestibulum nunc hendrerit, tincidunt orci sed, accumsan felis. Duis volutpat erat in risus aliquam, malesuada aliquam ipsum sagittis. Nunc nec purus ut justo pharetra ullamcorper quis id nulla. Vestibulum id ultrices justo. Fusce vel dolor consectetur, viverra mi vitae, bibendum purus. Maecenas sed suscipit ante. Curabitur quis maximus orci. Quisque interdum, justo id commodo dictum, enim nisl accumsan libero, ut auctor nisi nisi consequat diam. Phasellus viverra, arcu non finibus sagittis, eros leo tincidunt odio, non ultricies turpis elit vel ex. Donec sodales faucibus quam, nec mollis felis placerat at. Cras quis dapibus est. Fusce molestie orci vitae commodo porttitor."
             android:id="@+id/detailsTextView"
             android:layout_gravity="center_horizontal" />
     </ScrollView>
