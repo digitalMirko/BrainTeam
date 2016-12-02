@@ -54,7 +54,7 @@ public class BrainDetailActivity extends AppCompatActivity {
                 imageView.setImageResource(R.mipmap.nikola);
                 break;
             case "Elon Musk":
-                bornTextView.setText("South African-born Canadian-American ");
+                bornTextView.setText("South African-born, Canadian-American ");
                 professionTextView.setText("Business Magnate, Investor\nEngineer, and Inventor");
                 detailsTextView.setText("Elon is the founder, CEO, and CTO of SpaceX; co-founder, CEO, and product architect of Tesla Motors; co-founder and chairman " +
                         "of SolarCity; co-chairman of OpenAI; co-founder of Zip2; and founder of X.com which merged with PayPal of Confinity. As of June 2016, he has an " +
@@ -82,7 +82,13 @@ public class BrainDetailActivity extends AppCompatActivity {
                 imageView.setImageResource(R.mipmap.bill);
                 break;
             case "Steve Jobs":
-                bornTextView.setText("U.S. Born");
+                bornTextView.setText("U.S. Born, Arab American");
+                professionTextView.setText("Businessman, Inventor,\nand Industrial Designer");
+                detailsTextView.setText("Steve was the co-founder, chairman, and chief executive officer (CEO) of Apple Inc.; CEO and majority shareholder of Pixar; " +
+                        "a member of The Walt Disney Company's board of directors following its acquisition of Pixar; and founder, chairman, and CEO of NeXT. Jobs is widely " +
+                        "recognized as a pioneer of the microcomputer revolution of the 1970s and 1980s, along with Apple co-founder Steve Wozniak. Shortly after his death, " +
+                        "Jobs's official biographer, Walter Isaacson, described him as a \"creative entrepreneur whose passion for perfection and ferocious drive revolutionized " +
+                        "six industries: personal computers, animated movies, music, phones, tablet computing, and digital publishing.\"");
                 imageView.setImageResource(R.mipmap.steve);
                 break;
             case "Larry Page":
