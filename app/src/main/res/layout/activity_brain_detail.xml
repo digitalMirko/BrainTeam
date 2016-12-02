@@ -61,7 +61,7 @@
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mi ipsum, tristique a enim quis, porttitor vestibulum ipsum. Donec cursus felis nulla, id semper lacus ultricies vel. Aenean efficitur est a egestas rhoncus. Proin semper lacinia congue. Curabitur vestibulum nunc hendrerit, tincidunt orci sed, accumsan felis. Duis volutpat erat in risus aliquam, malesuada aliquam ipsum sagittis. Nunc nec purus ut justo pharetra ullamcorper quis id nulla. Vestibulum id ultrices justo. Fusce vel dolor consectetur, viverra mi vitae, bibendum purus. Maecenas sed suscipit ante. Curabitur quis maximus orci. Quisque interdum, justo id commodo dictum, enim nisl accumsan libero, ut auctor nisi nisi consequat diam. Phasellus viverra, arcu non finibus sagittis, eros leo tincidunt odio, non ultricies turpis elit vel ex. Donec sodales faucibus quam, nec mollis felis placerat at. Cras quis dapibus est. Fusce molestie orci vitae commodo porttitor."
             android:id="@+id/detailsTextView"
             android:layout_gravity="center_horizontal"
-            android:textAlignment="center" />
+            android:textAlignment="gravity" />
     </ScrollView>
 
 </LinearLayout>
