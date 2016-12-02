@@ -68,6 +68,17 @@ public class BrainDetailActivity extends AppCompatActivity {
                 break;
             case "Bill Gates":
                 bornTextView.setText("U.S. Born");
+                professionTextView.setText("Business Magnate, Investor,\nAuthor and Philanthropis");
+                detailsTextView.setText("In 1975, Gates and Paul Allen co-founded Microsoft, which became the world's largest PC software company. During his career at " +
+                        "Microsoft, Gates held the positions of chairman, CEO and chief software architect, and was the largest individual shareholder until May 2014." +
+                        "Gates has authored and co-authored several books.\n\n" +
+                        "Starting in 1987, Gates was included in the Forbes list of the world's wealthiest people and was the wealthiest from 1995 to 2007, again in 2009, " +
+                        "and has been since 2014. Between 2009 and 2014, his wealth doubled from US$40 billion to more than US$82 billion. Between 2013 and 2014, his wealth " +
+                        "increased by US$15 billion. Gates is currently the richest person in the world, with an estimated net worth of US$81.7 billion as of November 2016.\n\n" +
+                        "Gates is one of the best-known entrepreneurs of the personal computer revolution. Gates has been criticized for his business tactics, which have " +
+                        "been considered anti-competitive, an opinion that has in some cases been upheld by numerous court rulings.[12] Later in his career Gates pursued a " +
+                        "number of philanthropic endeavors, donating large amounts of money to various charitable organizations and scientific research programs through the " +
+                        "Bill & Melinda Gates Foundation, established in 2000.");
                 imageView.setImageResource(R.mipmap.bill);
                 break;
             case "Steve Jobs":
