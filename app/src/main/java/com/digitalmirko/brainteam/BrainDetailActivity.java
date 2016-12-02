@@ -93,6 +93,13 @@ public class BrainDetailActivity extends AppCompatActivity {
                 break;
             case "Larry Page":
                 bornTextView.setText("U.S. Born");
+                professionTextView.setText("Computer Scientist and\nan Internet Entrepreneur");
+                detailsTextView.setText("Larry co-founded Google Inc. with Sergey Brin in 1998.\n\n" + "Page is the chief executive officer (CEO) of Google's parent company, " +
+                        "Alphabet Inc. After stepping aside as Google CEO in August 2001 in favour of Eric Schmidt, he re-assumed the role in April 2011. He announced his " +
+                        "intention to step aside a second time in July 2015 to become CEO of Alphabet, under which Google's assets would be reorganized. Under Page, Alphabet " +
+                        "is seeking to deliver major advancements in a variety of industries.\n\n" +
+                        "In November 2016, he is the 12th richest person in the world, with an estimated net worth of US$36.9 billion.\n\n" +
+                        "Page is the inventor of PageRank, Google's best-known search ranking algorithm. Page received the Marconi Prize in 2004");
                 imageView.setImageResource(R.mipmap.larry);
                 break;
             case "Sergey Brin":
