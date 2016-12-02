@@ -33,7 +33,7 @@ public class BrainDetailActivity extends AppCompatActivity {
         // Person birth place
         switch (personName){
             case "Nikola Tesla":
-                bornTextView.setText("Serbian American");
+                bornTextView.setText("Croatian born, Serbian American");
                 professionTextView.setText("Inventor, Electrical/Mechanical Engineer\nPhysicist, and Futurist");
                 detailsTextView.setText("Tesla gained experience in telephony and electrical engineering before emigrating to the United States in 1884 to work for " +
                         "Thomas Edison in New York City. He soon struck out on his own with financial backers, setting up laboratories and companies to develop a range" +
@@ -67,7 +67,7 @@ public class BrainDetailActivity extends AppCompatActivity {
                 imageView.setImageResource(R.mipmap.elon4b);
                 break;
             case "Bill Gates":
-                bornTextView.setText("U.S. Born");
+                bornTextView.setText("U.S. Born, British American");
                 professionTextView.setText("Business Magnate, Investor,\nAuthor and Philanthropis");
                 detailsTextView.setText("In 1975, Gates and Paul Allen co-founded Microsoft, which became the world's largest PC software company. During his career at " +
                         "Microsoft, Gates held the positions of chairman, CEO and chief software architect, and was the largest individual shareholder until May 2014." +
@@ -92,7 +92,7 @@ public class BrainDetailActivity extends AppCompatActivity {
                 imageView.setImageResource(R.mipmap.steve);
                 break;
             case "Larry Page":
-                bornTextView.setText("U.S. Born");
+                bornTextView.setText("U.S. Born, Russian American");
                 professionTextView.setText("Computer Scientist and\nan Internet Entrepreneur");
                 detailsTextView.setText("Larry co-founded Google Inc. with Sergey Brin in 1998. Page is the chief executive officer (CEO) of Google's parent company, " +
                         "Alphabet Inc. After stepping aside as Google CEO in August 2001 in favour of Eric Schmidt, he re-assumed the role in April 2011. He announced his " +
@@ -103,7 +103,17 @@ public class BrainDetailActivity extends AppCompatActivity {
                 imageView.setImageResource(R.mipmap.larry);
                 break;
             case "Sergey Brin":
-                bornTextView.setText("Soviet Born");
+                bornTextView.setText("Soviet Born, Russian American");
+                professionTextView.setText("Computer Scientist, Internet Entrepreneur,\nand Philanthropist");
+                detailsTextView.setText("Together with Larry Page, he co-founded Google. Brin is the President of Google's parent company Alphabet Inc. In October 2016, " +
+                        "he is the 12th richest person in the world, with an estimated net worth of US$39.2 billion. Brin immigrated to the United States with his family " +
+                        "from the Soviet Union at the age of 6. He earned his bachelor's degree at the University of Maryland, following in his father's and grandfather's " +
+                        "footsteps by studying mathematics, as well as computer science. After graduation, he moved to Stanford University to acquire a PhD in computer " +
+                        "science. There he met Page, with whom he later became friends. They crammed their dormitory room with inexpensive computers and applied Brin's " +
+                        "data mining system to build a web search engine. The program became popular at Stanford, and they suspended their PhD studies to start up Google " +
+                        "in a rented garage.\n\n" + "The Economist referred to Brin as an \"Enlightenment Man\", and as someone who believes that \"knowledge is always good," +
+                        " and certainly always better than ignorance\", a philosophy that is summed up by Google's mission statement, \"Organize the world's information " +
+                        "and make it universally accessible and useful,\" and unofficial motto, \"Don't be evil\".");
                 imageView.setImageResource(R.mipmap.sergey);
                 break;
             default:
