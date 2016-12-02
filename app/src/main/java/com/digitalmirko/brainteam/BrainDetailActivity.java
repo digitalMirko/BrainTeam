@@ -21,10 +21,36 @@ public class BrainDetailActivity extends AppCompatActivity {
         professionTextView = (TextView) findViewById(R.id.professionTextView);
         detailsTextView = (TextView) findViewById(R.id.detailsTextView);
 
+        // Persons Name
         String personName = (String) getIntent().getExtras().get("personName");
 //        System.out.println("The person is here! " + personName); // Test to see if click works
-
         nameTextView.setText(personName);
+
+        // Person birth place
+        switch (personName){
+            case "Nikola Tesla":
+                bornTextView.setText("Serbian American");
+                break;
+            case "Elon Musk":
+                bornTextView.setText("South African");
+                break;
+            case "Bill Gates":
+                bornTextView.setText("American");
+                break;
+            case "Steve Jobs":
+                bornTextView.setText("American");
+                break;
+            case "Larry Page":
+                bornTextView.setText("American");
+                break;
+
+                break;
+            default:
+                break;
+        }
+
+
+
 
     }
 
