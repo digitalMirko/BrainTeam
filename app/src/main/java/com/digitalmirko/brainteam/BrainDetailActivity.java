@@ -35,13 +35,16 @@ public class BrainDetailActivity extends AppCompatActivity {
                 bornTextView.setText("South African");
                 break;
             case "Bill Gates":
-                bornTextView.setText("American");
+                bornTextView.setText("U.S. Born");
                 break;
             case "Steve Jobs":
-                bornTextView.setText("American");
+                bornTextView.setText("U.S. Born");
                 break;
             case "Larry Page":
-                bornTextView.setText("American");
+                bornTextView.setText("U.S. Born");
+                break;
+            case "Sergey Brin":
+                bornTextView.setText("Soviet Born");
                 break;
             default:
                 break;
