@@ -76,7 +76,7 @@ public class BrainDetailActivity extends AppCompatActivity {
                         "and has been since 2014. Between 2009 and 2014, his wealth doubled from US$40 billion to more than US$82 billion. Between 2013 and 2014, his wealth " +
                         "increased by US$15 billion. Gates is currently the richest person in the world, with an estimated net worth of US$81.7 billion as of November 2016.\n\n" +
                         "Gates is one of the best-known entrepreneurs of the personal computer revolution. Gates has been criticized for his business tactics, which have " +
-                        "been considered anti-competitive, an opinion that has in some cases been upheld by numerous court rulings.[12] Later in his career Gates pursued a " +
+                        "been considered anti-competitive, an opinion that has in some cases been upheld by numerous court rulings. Later in his career Gates pursued a " +
                         "number of philanthropic endeavors, donating large amounts of money to various charitable organizations and scientific research programs through the " +
                         "Bill & Melinda Gates Foundation, established in 2000.");
                 imageView.setImageResource(R.mipmap.bill);
