@@ -43,8 +43,6 @@ public class BrainDetailActivity extends AppCompatActivity {
             case "Larry Page":
                 bornTextView.setText("American");
                 break;
-
-                break;
             default:
                 break;
         }
