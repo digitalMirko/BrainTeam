@@ -19,10 +19,15 @@ public class BrainDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_brain_detail);
 
+        // Persons name
         nameTextView = (TextView) findViewById(R.id.nameTextView);
+        // Birthday place and nationality
         bornTextView = (TextView) findViewById(R.id.bornTextView);
+        // Profession known by
         professionTextView = (TextView) findViewById(R.id.professionTextView);
+        // Life Details
         detailsTextView = (TextView) findViewById(R.id.detailsTextView);
+        // Persons image
         imageView = (ImageView) findViewById(R.id.imageView);
 
         // Persons Name
@@ -30,7 +35,7 @@ public class BrainDetailActivity extends AppCompatActivity {
 //        System.out.println("The person is here! " + personName); // Test to see if click works
         nameTextView.setText(personName);
 
-        // Person birth place
+        // Switches to correct person clicked and displays their photo and correct informaton
         switch (personName){
             case "Nikola Tesla":
                 bornTextView.setText("Croatian born, Serbian American");
@@ -119,10 +124,6 @@ public class BrainDetailActivity extends AppCompatActivity {
             default:
                 break;
         }
-
-
-
-
     }
 
 }
