@@ -94,7 +94,7 @@ public class BrainDetailActivity extends AppCompatActivity {
             case "Larry Page":
                 bornTextView.setText("U.S. Born");
                 professionTextView.setText("Computer Scientist and\nan Internet Entrepreneur");
-                detailsTextView.setText("Larry co-founded Google Inc. with Sergey Brin in 1998.\n\n" + "Page is the chief executive officer (CEO) of Google's parent company, " +
+                detailsTextView.setText("Larry co-founded Google Inc. with Sergey Brin in 1998. Page is the chief executive officer (CEO) of Google's parent company, " +
                         "Alphabet Inc. After stepping aside as Google CEO in August 2001 in favour of Eric Schmidt, he re-assumed the role in April 2011. He announced his " +
                         "intention to step aside a second time in July 2015 to become CEO of Alphabet, under which Google's assets would be reorganized. Under Page, Alphabet " +
                         "is seeking to deliver major advancements in a variety of industries.\n\n" +
